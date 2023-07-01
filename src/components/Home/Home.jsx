@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./home.css";
 
 const Home = () => {
-  return <div>Home</div>;
+  useEffect(() => {
+    document.title = "Zagreb Home Page";
+  }, []);
+  return <div className="home">Home</div>;
 };
 
 export default Home;
