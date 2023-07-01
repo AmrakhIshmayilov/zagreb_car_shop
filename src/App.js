@@ -1,10 +1,15 @@
-import './App.css';
+import "./App.css";
+import Pages from "./components/Pages";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div>
-      App
-    </div>
+    <>
+      <Navbar />
+      <Pages />
+      <Footer />
+    </>
   );
 }
 

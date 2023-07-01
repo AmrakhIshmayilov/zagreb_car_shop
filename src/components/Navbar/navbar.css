@@ -1,0 +1,38 @@
+.main-header .header-top {
+  position: relative;
+  background: #222222;
+  color: #ffffff;
+  padding: 12px 0px;
+}
+
+.wrapper-header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-top .social-icon a {
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+  line-height: 24px;
+  font-size: 13px;
+  color: #ffffff;
+  transition: all 0.5ms ease;
+  -moz-transition: all 0.5ms ease;
+  -webkit-transition: all 0.5ms ease;
+  -ms-transition: all 0.5ms ease;
+  -o-transition: all 0.5ms ease;
+}
+
+.header-top .social-icon a:hover {
+  color: #ff8201;
+}
+
+.main-header .header-top .header-top-right ul li {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.main-header .header-top .header-top-right ul li .icon {
+  margin-right: 15px;
+}
