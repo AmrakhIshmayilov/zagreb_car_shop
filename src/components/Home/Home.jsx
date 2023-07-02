@@ -3,7 +3,7 @@ import "./home.css";
 
 const Home = () => {
   useEffect(() => {
-    document.title = "Zagreb Home Page";
+    document.title = "Zagreb";
   }, []);
   return <div className="home">Home</div>;
 };

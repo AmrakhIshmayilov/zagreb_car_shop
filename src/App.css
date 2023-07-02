@@ -16,6 +16,10 @@ a:hover {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 .auto-container {
   max-width: 1200px;
   padding: 0 15px;

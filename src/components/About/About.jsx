@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./about.css";
 
 const About = () => {
-  return <div>About</div>;
+  useEffect(() => {
+    document.title = "Zagreb About Us";
+  }, []);
+  return <div className="about">About</div>;
 };
 
 export default About;
