@@ -18,19 +18,102 @@
       href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="%PUBLIC_URL%/libs/revolution-slider/revolution-slider.css"
+    />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <script src="%PUBLIC_URL%/libs/jquery/jquery.js"></script>
+    <script src="%PUBLIC_URL%/libs/revolution-slider/revolution.min.js"></script>
+    <script>
+      setTimeout(() => {
+        //Revolution Slider
+        console.log($(".main-slider .tp-banner"));
+        if ($(".main-slider .tp-banner").length) {
+          console.log("burda");
+          var MainSlider = $(".main-slider");
+          var strtHeight = MainSlider.attr("data-start-height");
+          var slideOverlay = "'" + MainSlider.attr("data-slide-overlay") + "'";
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+          $(".main-slider .tp-banner")
+            .show()
+            .revolution({
+              dottedOverlay: slideOverlay,
+              delay: 100000,
+              startwidth: 1200,
+              startheight: strtHeight,
+              hideThumbs: 600,
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+              thumbWidth: 80,
+              thumbHeight: 50,
+              thumbAmount: 5,
+
+              navigationType: "bullet",
+              navigationArrows: "0",
+              navigationStyle: "preview3",
+
+              touchenabled: "on",
+              onHoverStop: "off",
+
+              swipe_velocity: 0.7,
+              swipe_min_touches: 1,
+              swipe_max_touches: 1,
+              drag_block_vertical: false,
+
+              parallax: "mouse",
+              parallaxBgFreeze: "on",
+              parallaxLevels: [7, 4, 3, 2, 5, 4, 3, 2, 1, 0],
+
+              keyboardNavigation: "off",
+
+              navigationHAlign: "center",
+              navigationVAlign: "bottom",
+              navigationHOffset: 0,
+              navigationVOffset: 50,
+
+              soloArrowLeftHalign: "left",
+              soloArrowLeftValign: "center",
+              soloArrowLeftHOffset: 20,
+              soloArrowLeftVOffset: 0,
+
+              soloArrowRightHalign: "right",
+              soloArrowRightValign: "center",
+              soloArrowRightHOffset: 20,
+              soloArrowRightVOffset: 0,
+
+              shadow: 0,
+              fullWidth: "on",
+              fullScreen: "off",
+
+              spinner: "spinner4",
+
+              stopLoop: "off",
+              stopAfterLoops: -1,
+              stopAtSlide: -1,
+
+              shuffle: "off",
+
+              autoHeight: "off",
+              forceFullWidth: "on",
+
+              hideThumbsOnMobile: "on",
+              hideNavDelayOnMobile: 1500,
+              hideBulletsOnMobile: "on",
+              hideArrowsOnMobile: "on",
+              hideThumbsUnderResolution: 0,
+
+              hideSliderAtLimit: 0,
+              hideCaptionAtLimit: 0,
+              hideAllCaptionAtLilmit: 0,
+              startWithSlide: 0,
+              videoJsPath: "",
+              fullScreenOffsetContainer: "",
+            });
+        }
+      }, 500);
+    </script>
   </body>
 </html>
