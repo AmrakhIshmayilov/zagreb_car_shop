@@ -36,92 +36,75 @@ const MainSlider = () => {
             ></button>
           </div>
           <div className="carousel-inner h-100">
-            <div
-              className="carousel-item h-100 active"
-              data-bs-interval="10000"
-            >
+            <div className="carousel-item h-100 active">
               <img
                 src={image1}
                 className="d-block w-100 h-100 object-fit-cover"
                 alt="..."
               />
-              <div
-                className="carousel-caption"
-                style={{
-                  right: "none",
-                  top: "38%",
-                }}
-              >
-                <h2
-                  className="animate__animated animate__fadeInLeft title"
-                  style={{
-                    letterSpacing: 1,
-                    fontSize: 44,
-                    textTransform: "uppercase",
-                    fontWeight: 900,
-                    textAlign: "left",
-                    color: "white",
-                  }}
-                >
+              <div className="carousel-caption">
+                <h2 className="animate__animated animate__fadeInLeft title">
                   Best Worldwide <br />
-                  <span
-                    className="theme_color"
-                    style={{
-                      letterSpacing: 1,
-                      fontSize: 44,
-                      color: "#ff8201",
-                    }}
-                  >
-                    Car Hire{" "}
-                  </span>
+                  <span className="theme_color">Car Hire </span>
                   Deals
                 </h2>
-                <p
-                  className="animate__animated animate__fadeInRight subtitle"
-                  style={{
-                    color: "white",
-                    textAlign: "left",
-                  }}
-                >
-                  Tremor est vivos magna. Expansis ulnis video missing <br />{" "}
+                <p className="animate__animated animate__fadeInRight subtitle">
+                  Tremor est vivos magna. Expansis ulnis video missing <br />
                   carnem armis caeruleum in locis.
                 </p>
-                <p
-                  className="animate__animated animate__fadeInLeft"
-                  style={{
-                    color: "white",
-                    textAlign: "left",
-                  }}
-                >
+                <p className="animate__animated animate__fadeInLeft btn-box">
                   <a href="##" className="btn-slider">
                     EXPLORE NOW
                   </a>
                 </p>
               </div>
             </div>
-            <div className="carousel-item h-100" data-bs-interval="2000">
+            <div className="carousel-item h-100">
               <img
                 src={image2}
                 className="d-block w-100 h-100 object-fit-cover"
                 alt="..."
               />
               <div className="carousel-caption">
-                <h5>Second slide label</h5>
-                <p>
-                  Some representative placeholder content for the second slide.
+                <h2 className="animate__animated animate__fadeInLeft title">
+                  NEED A <span className="theme_color">RIDE </span> ?
+                </h2>
+                <p className="animate__animated animate__fadeInRight subtitle">
+                  Tremor est vivos magna. Expansis ulnis video missing <br />
+                  carnem armis caeruleum in locis.
+                </p>
+                <p className="animate__animated animate__fadeInLeft btn-box">
+                  <a href="##" className="btn-slider btn-transparent">
+                    MAKE A BOOKING
+                  </a>
+                  <a href="##" className="btn-slider">
+                    MAKE A BOOKING
+                  </a>
                 </p>
               </div>
             </div>
-            <div className="carousel-item h-100">
+            <div className="carousel-item carusel-center h-100">
               <img
                 src={image3}
                 className="d-block w-100 h-100 object-fit-cover"
                 alt="..."
               />
               <div className="carousel-caption">
-                <h5>Third slide label</h5>
-                <p>
-                  Some representative placeholder content for the third slide.
+                <h2 className="animate__animated animate__fadeInDownBig title">
+                  HIRE CAR <span className="theme_color">PROFESSIONAL </span> ?
+                </h2>
+                <p className="animate__animated animate__fadeInUp subtitle">
+                  Pestilentia est haec ambulabat mortuos. Sicut malus voodoo.
+                  Aenean a dolor <br />
+                  vulnerum aperire accedunt, mortui iam vivam.
+                </p>
+                <p className="animate__animated animate__fadeInUp btn-box">
+                  <a href="##" className="btn-slider btn-transparent">
+                    MAKE A BOOKING
+                  </a>
+                  <a href="##" className="btn-slider">
+                    MAKE A BOOKING
+                  </a>
                 </p>
               </div>
             </div>

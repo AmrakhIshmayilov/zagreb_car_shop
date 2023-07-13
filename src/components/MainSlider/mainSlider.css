@@ -2,12 +2,64 @@
   height: 830px;
 }
 
+.main-slider .carousel-indicators {
+  bottom: 50px;
+}
+
+.main-slider .carousel-indicators button {
+  background: none !important;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  margin: 0px 7px;
+  opacity: 1;
+  transition: background-color 0.2s;
+}
+.main-slider .carousel-indicators button:hover,
+.main-slider .carousel-indicators button.active {
+  background: #ff8201 !important;
+}
+
+.main-slider .carousel-inner .carousel-caption {
+  top: 38%;
+}
+
 .main-slider .carousel-inner .carousel-caption .title {
   line-height: 57px;
+  letter-spacing: 1px;
+  font-size: 44px;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: left;
+  color: white;
+  animation-delay: 0.5s;
 }
+
+.main-slider .carousel-inner .carousel-caption .title span {
+  letter-spacing: 1px;
+  font-size: 44px;
+  color: rgb(255, 130, 1);
+}
+
 .main-slider .carousel-inner .carousel-caption .subtitle {
   font-size: 16px;
   margin-bottom: 20px;
+  color: white;
+  text-align: left;
+  animation-delay: 0.5s;
+}
+
+.main-slider .carousel-inner .carousel-caption .btn-box {
+  color: white;
+  text-align: left;
+  animation-delay: 0.5s;
+}
+
+.main-slider .carousel-inner .carusel-center .title,
+.main-slider .carousel-inner .carusel-center .subtitle,
+.main-slider .carousel-inner .carusel-center .btn-box {
+  text-align: center;
 }
 
 .main-slider button > svg {
@@ -26,15 +78,15 @@
   border-color: #fa6f1c;
 }
 
-/* .main-slider .carousel-indicators,
-.main-slider button {
+.main-slider .carousel-indicators,
+.main-slider .carousel > button {
   transition: opacity 0.3s;
   opacity: 0;
-} */
-/* .main-slider:hover .carousel-indicators,
+}
+.main-slider:hover .carousel-indicators,
 .main-slider:hover button {
   opacity: 1;
-} */
+}
 
 .btn-slider {
   line-height: 24px;
@@ -48,12 +100,59 @@
   border-radius: 50px;
   background-color: #ff8201;
   display: inline-block;
+  transition: all 0.2s ease-out 0s;
+}
+
+.btn-slider:hover {
+  background-color: transparent;
+  color: #ff8201;
+}
+
+.btn-slider.btn-transparent {
+  background-color: transparent;
+  border-color: white;
+  margin-right: 20px;
+}
+
+.btn-slider.btn-transparent:hover {
+  background-color: #ff8201;
+  border-color: #ff8201;
+  color: white;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 7%;
 }
 
 @keyframes fadeInLeft {
   from {
     opacity: 0;
-    transform: translate3d(-30px, 0, 0);
+    transform: translate3d(-100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInDownBig {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100px, 0);
   }
 
   to {
