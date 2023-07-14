@@ -1,0 +1,76 @@
+.cars-section {
+  padding: 140px 0 150px;
+}
+
+.cars-section .carousel-column .car-item {
+  position: relative;
+  padding-top: 50px;
+}
+
+.cars-section .content-column {
+  padding-right: 85px;
+}
+.cars-section .carousel-column h2 {
+  position: relative;
+  color: #232323;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 98px;
+  text-transform: uppercase;
+}
+
+.single-item-carousel {
+  position: relative;
+}
+
+.single-item-carousel:before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 109.5%;
+  left: 76px;
+  bottom: 90%;
+  background-color: #ff8201;
+}
+
+.single-item-carousel:after {
+  position: absolute;
+  content: "";
+  left: 72px;
+  bottom: 90%;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #ff8201;
+}
+
+.cars-section .owl-nav {
+  margin: 0px !important;
+  position: absolute;
+  left: 0px;
+  top: -32px;
+}
+
+.cars-section .owl-carousel .owl-nav button[class*="owl-"] {
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 20px;
+  padding: 0px;
+  color: #cccccc;
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 0px;
+  background: none !important;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.cars-section .owl-carousel .owl-nav button[class*="owl-"]:hover {
+  color: #404040;
+}

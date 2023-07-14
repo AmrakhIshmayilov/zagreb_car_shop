@@ -55,3 +55,30 @@
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
+
+.content-column {
+  position: relative;
+  max-width: 520px;
+}
+
+.content-column .text p {
+  position: relative;
+  color: #777777;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.content-column .dark-text {
+  position: relative;
+  color: #232323;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+  .content-container {
+    padding-left: 0px;
+  }
+}
