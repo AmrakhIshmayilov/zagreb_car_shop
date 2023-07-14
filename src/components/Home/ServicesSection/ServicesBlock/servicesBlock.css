@@ -1,0 +1,83 @@
+.services-block {
+  position: relative;
+  margin-bottom: 40px;
+  padding: 0px 30px;
+}
+
+.services-block .inner-box {
+  text-align: center;
+}
+
+.services-block .inner-box .upper-box {
+  position: relative;
+  display: inline-block;
+}
+
+.services-block .inner-box .icon-box {
+  position: relative;
+  width: 116px;
+  height: 116px;
+  margin: 0 auto;
+  color: #6d6e70;
+  font-size: 40px;
+  border-radius: 50%;
+  line-height: 110px;
+  text-align: center;
+  margin-bottom: 22px;
+  border: 1px dashed #afafaf;
+}
+.services-block .inner-box .upper-box .number {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  color: #ffffff;
+  font-size: 14px;
+  width: 28px;
+  height: 28px;
+  line-height: 29px;
+  font-weight: 600;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgba(255, 130, 1, 0.9);
+}
+
+.services-block .inner-box .lower-box h3 {
+  position: relative;
+  line-height: 1em;
+  padding-bottom: 14px;
+}
+
+.services-block .inner-box .lower-box h3:after {
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  width: 30px;
+  height: 2px;
+  left: 50%;
+  margin-left: -15px;
+  background-color: #ff8e19;
+}
+
+.services-block .inner-box .lower-box h3 a {
+  position: relative;
+  color: #222222;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.services-block .inner-box .lower-box h3 a:hover {
+  color: #ff8201;
+}
+
+.services-block .inner-box .lower-box .text {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8em;
+  margin-top: 24px;
+}

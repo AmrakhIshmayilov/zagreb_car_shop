@@ -3,6 +3,7 @@ import "./home.css";
 import MainSlider from "../MainSlider/MainSlider";
 import AboutSection from "./AboutSection/AboutSection";
 import bgAbout from "../../assets/images/1.png";
+import ServicesSection from "./ServicesSection/ServicesSection";
 
 const Home = () => {
   useEffect(() => {
@@ -12,6 +13,7 @@ const Home = () => {
     <div className="home">
       <MainSlider />
       <AboutSection bgImage={bgAbout} />
+      <ServicesSection />
     </div>
   );
 };
