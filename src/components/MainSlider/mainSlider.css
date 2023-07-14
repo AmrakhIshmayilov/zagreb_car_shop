@@ -88,38 +88,6 @@
   opacity: 1;
 }
 
-.btn-slider {
-  line-height: 24px;
-  border-width: 2px;
-  padding: 14px 43px;
-  text-transform: uppercase;
-  color: #ffffff;
-  border: 2px solid #ff8201;
-  font-size: 14px;
-  font-weight: 800;
-  border-radius: 50px;
-  background-color: #ff8201;
-  display: inline-block;
-  transition: all 0.2s ease-out 0s;
-}
-
-.btn-slider:hover {
-  background-color: transparent;
-  color: #ff8201;
-}
-
-.btn-slider.btn-transparent {
-  background-color: transparent;
-  border-color: white;
-  margin-right: 20px;
-}
-
-.btn-slider.btn-transparent:hover {
-  background-color: #ff8201;
-  border-color: #ff8201;
-  color: white;
-}
-
 .carousel-control-next,
 .carousel-control-prev {
   width: 7%;

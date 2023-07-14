@@ -1,0 +1,18 @@
+.about-section {
+  background-position: right top;
+  background-repeat: no-repeat;
+  padding: 150px 0px 150px;
+}
+
+.content-column {
+  position: relative;
+  max-width: 520px;
+}
+
+.content-column .text p {
+  position: relative;
+  color: #777777;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}

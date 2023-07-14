@@ -4,6 +4,7 @@ import "./mainSlider.css";
 import image1 from "../../assets/images/image-1.jpg";
 import image2 from "../../assets/images/image-2.jpg";
 import image3 from "../../assets/images/image-3.jpg";
+import ZagrebBtn from "../common/ZagrebBtn/ZagrebBtn";
 
 const MainSlider = () => {
   return (
@@ -13,12 +14,12 @@ const MainSlider = () => {
           id="carouselExampleDark"
           className="carousel carousel-dark slide h-100"
         >
-          <div class="carousel-indicators">
+          <div className="carousel-indicators">
             <button
               type="button"
               data-bs-target="#carouselExampleDark"
               data-bs-slide-to="0"
-              class="active"
+              className="active"
               aria-current="true"
               aria-label="Slide 1"
             ></button>
@@ -53,9 +54,7 @@ const MainSlider = () => {
                   carnem armis caeruleum in locis.
                 </p>
                 <p className="animate__animated animate__fadeInLeft btn-box">
-                  <a href="##" className="btn-slider">
-                    EXPLORE NOW
-                  </a>
+                  <ZagrebBtn link="##" text="EXPLORE NOW" />
                 </p>
               </div>
             </div>
@@ -74,12 +73,12 @@ const MainSlider = () => {
                   carnem armis caeruleum in locis.
                 </p>
                 <p className="animate__animated animate__fadeInLeft btn-box">
-                  <a href="##" className="btn-slider btn-transparent">
-                    MAKE A BOOKING
-                  </a>
-                  <a href="##" className="btn-slider">
-                    MAKE A BOOKING
-                  </a>
+                  <ZagrebBtn
+                    link="##"
+                    text="MAKE A BOOKING"
+                    btnType="outline-light"
+                  />
+                  <ZagrebBtn link="##" text="MAKE A BOOKING" />
                 </p>
               </div>
             </div>
@@ -99,12 +98,12 @@ const MainSlider = () => {
                   vulnerum aperire accedunt, mortui iam vivam.
                 </p>
                 <p className="animate__animated animate__fadeInUp btn-box">
-                  <a href="##" className="btn-slider btn-transparent">
-                    MAKE A BOOKING
-                  </a>
-                  <a href="##" className="btn-slider">
-                    MAKE A BOOKING
-                  </a>
+                  <ZagrebBtn
+                    link="##"
+                    text="CONTACT NOW"
+                    btnType="outline-light"
+                  />
+                  <ZagrebBtn link="##" text="DONATE NOW" />
                 </p>
               </div>
             </div>

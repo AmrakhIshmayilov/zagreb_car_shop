@@ -1,0 +1,57 @@
+.content-container {
+  padding-left: 80px;
+}
+
+.inner-box {
+  position: relative;
+}
+.sec-title {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.sec-title h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 1.4em;
+}
+
+.sec-title .rotate-title {
+  position: absolute;
+  left: -60px;
+  top: 0px;
+  line-height: 1em;
+  color: #f1f1f1;
+  font-size: 24px;
+  padding-right: 10px;
+  font-weight: 900;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.sec-title .rotate-title:before {
+  position: absolute;
+  content: "";
+  left: 100%;
+  top: 50%;
+  width: 1px;
+  height: 40px;
+  background-color: #ff8201;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
