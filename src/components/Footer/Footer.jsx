@@ -1,8 +1,46 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./footer.css";
+import footerLogo from "../../assets/images/footer-logo.png";
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <footer>
+      <div className="auto-container">
+        <div className="row justify-content-between">
+          <div className="col-md-6 col-sm-6 col-xs-12">
+            <ul className="footer-nav">
+              <li>
+                <Link to="/">
+                  <img src={footerLogo} alt="" />
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact">Contact</Link>
+              </li>
+              <li>
+                <Link to="/services">Services</Link>
+              </li>
+              <li>
+                <Link to="/our-cars">Our Cars</Link>
+              </li>
+              {/* <li>
+                <Link to="##">Service Rates</Link>
+              </li> */}
+              <li>
+                <Link to="/blog">Blog</Link>
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-6 col-sm-6 col-xs-12 text-end">
+            <div className="copyright">
+              Copyright © 2017 All Rights Reserved. Zagreb
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;

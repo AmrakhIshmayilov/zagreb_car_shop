@@ -1,10 +1,9 @@
 import React from "react";
 import "./aboutSection.css";
-import PageSection from "../common/PageSection/PageSection";
-import ZagrebBtn from "../common/ZagrebBtn/ZagrebBtn";
+import PageSection from "../../common/PageSection/PageSection";
+import ZagrebBtn from "../../common/ZagrebBtn/ZagrebBtn";
 
 const AboutSection = ({ bgImage }) => {
-  console.log(bgImage);
   return (
     <div
       className="about-section"
@@ -19,7 +18,7 @@ const AboutSection = ({ bgImage }) => {
         rotateTitle="ABOUT US"
       >
         <div className="content-column">
-          <div class="text">
+          <div className="text">
             <p>
               In omni memoria patriae religionis sunt diri undead historiarum.
               Golums, zombies et fascinati. Maleficia! Vel a modern perhsaps

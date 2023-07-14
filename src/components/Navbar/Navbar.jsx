@@ -12,6 +12,7 @@ import {
 import { TfiGoogle, TfiMenu } from "react-icons/tfi";
 import { BsTelephone } from "react-icons/bs";
 import { GoMail } from "react-icons/go";
+import { CgArrowLongUp } from "react-icons/cg";
 import logo from "../../assets/images/logo.png";
 import logo2 from "../../assets/images/logo-2.png";
 
@@ -46,6 +47,10 @@ const Navbar = () => {
   };
   const handleNavbarCloser = () => {
     setShowHiddenBar(false);
+  };
+
+  const handleScrollToTop = () => {
+    window.scroll(0, 0);
   };
 
   return (
@@ -141,6 +146,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+        <div className={`hidden_box ${fixHeader ? "d-block" : ""}`}></div>
       </div>
       <section
         className={`hidden-bar right-align ${
@@ -214,6 +220,12 @@ const Navbar = () => {
           </div>
         </div>
       </section>
+      <div
+        className={`scroll-to-top ${fixHeader ? "d-block" : ""}`}
+        onClick={handleScrollToTop}
+      >
+        <CgArrowLongUp />
+      </div>
     </>
   );
 };

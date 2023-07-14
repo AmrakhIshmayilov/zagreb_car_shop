@@ -1,0 +1,27 @@
+footer {
+  padding: 35px 0px;
+  background-color: #232323;
+}
+.footer-nav {
+  display: flex;
+  align-items: center;
+}
+.footer-nav li {
+  margin-right: 28px;
+}
+.footer-nav li a {
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  color: #aaaaaa;
+  transition: color 0.2s;
+}
+.footer-nav li a:hover {
+  color: #ffffff;
+}
+.copyright {
+  font-size: 14px;
+  color: #aaaaaa;
+  margin-top: 5px;
+  line-height: 24px;
+}
