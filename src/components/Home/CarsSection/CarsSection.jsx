@@ -46,6 +46,7 @@ const CarsSection = () => {
                   items={1}
                   loop
                   autoplay={true}
+                  smartSpeed={500}
                   center={true}
                   dots={false}
                   nav

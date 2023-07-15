@@ -78,6 +78,7 @@ const TestimonialSection = () => {
             className="owl-theme"
             items={1}
             loop
+            smartSpeed={600}
             autoplay={true}
             center={true}
           >

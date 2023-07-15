@@ -8,6 +8,7 @@ import bgAbout from "../../assets/images/1.png";
 import ServicesSection from "./ServicesSection/ServicesSection";
 import CarsSection from "./CarsSection/CarsSection";
 import TestimonialSection from "./TestimonialSection/TestimonialSection";
+import BlogSection from "./BlogSection/BlogSection";
 
 const Home = () => {
   useEffect(() => {
@@ -20,6 +21,7 @@ const Home = () => {
       <ServicesSection />
       <CarsSection />
       <TestimonialSection />
+      <BlogSection />
     </div>
   );
 };
