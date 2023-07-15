@@ -50,19 +50,19 @@ const CarsSection = () => {
                   dots={false}
                   nav
                 >
-                  <div class="car-item">
-                    <figure class="image">
+                  <div className="car-item">
+                    <figure className="image">
                       <img src={car} alt="1" />
                     </figure>
                   </div>
 
-                  <div class="car-item">
-                    <figure class="image">
+                  <div className="car-item">
+                    <figure className="image">
                       <img src={car} alt="2" />
                     </figure>
                   </div>
-                  <div class="car-item">
-                    <figure class="image">
+                  <div className="car-item">
+                    <figure className="image">
                       <img src={car} alt="3" />
                     </figure>
                   </div>

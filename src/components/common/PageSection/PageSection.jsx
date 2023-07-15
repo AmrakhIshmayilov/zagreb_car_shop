@@ -1,9 +1,9 @@
 import React from "react";
 import "./pageSection.css";
 
-const PageSection = ({ title, rotateTitle, children }) => {
+const PageSection = ({ title, rotateTitle, children, darkMode = false }) => {
   return (
-    <div className="page-section">
+    <div className={`page-section ${darkMode ? "dark-mode" : ""}`}>
       <div className="auto-container">
         <div className="content-container">
           <div className="inner-box">

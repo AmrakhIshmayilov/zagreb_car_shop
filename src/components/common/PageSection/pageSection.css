@@ -17,6 +17,9 @@
   text-transform: uppercase;
   line-height: 1.4em;
 }
+.dark-mode .sec-title h2 {
+  color: #ffffff;
+}
 
 .sec-title .rotate-title {
   position: absolute;
@@ -37,6 +40,11 @@
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
+
+.dark-mode .sec-title .rotate-title {
+  color: #4f4f4f;
+}
+
 .sec-title .rotate-title:before {
   position: absolute;
   content: "";

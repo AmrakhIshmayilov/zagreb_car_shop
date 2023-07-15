@@ -1,12 +1,13 @@
 import React from "react";
 import "./testiItem.css";
+import { BiSolidQuoteAltLeft } from "react-icons/bi";
 
 const TestiItem = ({ item, count }) => {
   return (
     <div className="testimonial-block">
       <div className="inner-box">
         <div className="quote-icon">
-          <span className="icon flaticon-left-quote"></span>
+          <BiSolidQuoteAltLeft />
         </div>
         <div className="text">{item.text}</div>
         <div className="author-info">
@@ -17,7 +18,8 @@ const TestiItem = ({ item, count }) => {
           <div className="designation">{item.position}</div>
         </div>
         <div className="carousel-number">
-          {item.number} <span>/ {count}</span>{" "}
+          {String(item.number).padStart(2, "0")}{" "}
+          <span>/ {String(count).padStart(2, "0")}</span>{" "}
         </div>
       </div>
     </div>

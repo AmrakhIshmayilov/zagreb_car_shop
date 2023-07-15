@@ -69,15 +69,17 @@ const TestimonialSection = () => {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div className="auto-container">
-        <PageSection title={<>WHAT PEOPLE SAY</>} rotateTitle="TESTIMONIALS">
+        <PageSection
+          title={<>WHAT PEOPLE SAY</>}
+          rotateTitle="TESTIMONIALS"
+          darkMode={true}
+        >
           <OwlCarousel
             className="owl-theme"
             items={1}
             loop
             autoplay={true}
             center={true}
-            dots={false}
-            nav
           >
             {testiItems.map((item) => (
               <TestiItem key={item.id} item={item} count={testiItems.length} />
