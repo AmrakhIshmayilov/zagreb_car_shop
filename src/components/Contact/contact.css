@@ -1,0 +1,137 @@
+.contact-section {
+  position: relative;
+  padding: 150px 0px 100px;
+}
+.contact-section .column {
+  position: relative;
+  padding: 0px 33px;
+}
+
+.contact-section .map-column {
+  position: relative;
+  margin-bottom: 50px;
+}
+.map-section {
+  position: relative;
+}
+
+.map-section .map-canvas {
+  height: 510px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-section .map-column .map-content {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 25px 30px;
+  background-color: #ffffff;
+}
+
+.contact-section .map-column .map-content h3 {
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  color: #232323;
+}
+
+.contact-section .map-column .map-content .text {
+  color: #aaaaaa;
+  font-size: 16px;
+  margin-top: 8px;
+}
+.contact-section .map-column .map-content .map-view {
+  position: relative;
+  color: #0189e2;
+  font-size: 14px;
+  margin-top: 15px;
+  display: inline-block;
+  text-decoration: underline;
+}
+.contact-info {
+  position: relative;
+  margin-top: 25px;
+}
+.contact-info li {
+  position: relative;
+  color: #777777;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.contact-info li svg {
+  position: relative;
+  font-size: 18px;
+  margin-right: 12px;
+  line-height: 1em;
+}
+
+.contact-form .group-title {
+  position: relative;
+}
+.contact-form .group-title h3 {
+  position: relative;
+  color: #232323;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.contact-form .group-title .text {
+  position: relative;
+  color: #777777;
+  font-size: 14px;
+  margin-bottom: 35px;
+}
+.contact-section .column .contact-form form .row {
+  margin: 0px -15px;
+}
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+.contact-form .form-group input[type="text"],
+.contact-form .form-group input[type="password"],
+.contact-form .form-group input[type="tel"],
+.contact-form .form-group input[type="email"],
+.contact-form .form-group select {
+  position: relative;
+  display: block;
+  width: 100%;
+  line-height: 26px;
+  padding: 10px 20px;
+  color: #aaaaaa;
+  border: 1px solid #dddddd;
+  height: 48px;
+  font-size: 15px;
+  background: #ffffff;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.contact-form .form-group textarea {
+  position: relative;
+  display: block;
+  width: 100%;
+  line-height: 24px;
+  padding: 10px 20px;
+  color: #222222;
+  border: 1px solid #dddddd;
+  height: 170px;
+  background: #ffffff;
+  resize: none;
+  font-size: 14px;
+  border-radius: 2px;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.contact-form .form-group button {
+  margin-top: 20px;
+}

@@ -15,7 +15,7 @@ const Home = () => {
     document.title = "Zagreb";
   }, []);
   return (
-    <div className="home">
+    <div className="home-page">
       <MainSlider />
       <AboutSection bgImage={bgAbout} />
       <ServicesSection />

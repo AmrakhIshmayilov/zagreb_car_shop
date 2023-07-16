@@ -1,0 +1,91 @@
+.page-title {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.page-title:before {
+  content: "";
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.page-title h1 {
+  position: relative;
+  font-size: 32px;
+  font-weight: 900;
+  color: #ffffff;
+  padding-bottom: 60px;
+  line-height: 1.4em;
+  text-transform: uppercase;
+}
+
+.page-title h1:after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 10px;
+  width: 1px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.page-title .bread-crumb-outer {
+  position: relative;
+  display: inline-block;
+  padding: 13px 50px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.page-title .bread-crumb-outer .bread-crumb {
+  display: flex;
+}
+
+.page-title .bread-crumb-outer .bread-crumb li {
+  position: relative;
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.page-title .bread-crumb-outer .bread-crumb li:last-child {
+  margin-right: 0px;
+}
+.page-title .bread-crumb-outer .bread-crumb li.active {
+  color: #ff8201;
+}
+
+.page-title .bread-crumb-outer .bread-crumb li a {
+  color: #ffffff;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  margin-right: 10px;
+}
+
+.page-title .bread-crumb-outer .bread-crumb li a:hover {
+  color: #fa6f1c;
+}
+
+.page-title .bread-crumb-outer .bread-crumb li svg {
+  width: 15px;
+  height: 15px;
+}
+
+@media only screen and (max-width: 499px) {
+  .page-title h1 {
+    font-size: 24px;
+  }
+}
