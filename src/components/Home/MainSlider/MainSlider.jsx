@@ -1,12 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { LiaAngleLeftSolid, LiaAngleRightSolid } from "react-icons/lia";
 import "./mainSlider.css";
-import image1 from "../../assets/images/image-1.jpg";
-import image2 from "../../assets/images/image-2.jpg";
-import image3 from "../../assets/images/image-3.jpg";
-import ZagrebBtn from "../common/ZagrebBtn/ZagrebBtn";
+import image1 from "../../../assets/images/image-1.jpg";
+import image2 from "../../../assets/images/image-2.jpg";
+import image3 from "../../../assets/images/image-3.jpg";
+import ZagrebBtn from "../../common/ZagrebBtn/ZagrebBtn";
 
 const MainSlider = () => {
+  const [mainSliderHeight, setMainSliderHeight] = useState(
+    (window.outerWidth * 69.1) / 100
+  );
+
+  useEffect(() => {
+    const handleResize = (event) => {
+      setMainSliderHeight((window.outerWidth * 69.1) / 100);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className="main-slider">
       <div className="banner-wrapper">
@@ -37,12 +53,15 @@ const MainSlider = () => {
             ></button>
           </div>
           <div className="carousel-inner h-100">
-            <div className="carousel-item h-100 active">
-              <img
-                src={image1}
-                className="d-block w-100 h-100 object-fit-cover"
-                alt="..."
-              />
+            <div
+              className="carousel-item active"
+              style={{
+                backgroundImage: `url(${image1})`,
+                height: `${
+                  mainSliderHeight > 830 ? "830px" : mainSliderHeight + "px"
+                }`,
+              }}
+            >
               <div className="carousel-caption">
                 <h2 className="animate__animated animate__fadeInLeft title">
                   Best Worldwide <br />
@@ -58,12 +77,15 @@ const MainSlider = () => {
                 </p>
               </div>
             </div>
-            <div className="carousel-item h-100">
-              <img
-                src={image2}
-                className="d-block w-100 h-100 object-fit-cover"
-                alt="..."
-              />
+            <div
+              className="carousel-item"
+              style={{
+                backgroundImage: `url(${image2})`,
+                height: `${
+                  mainSliderHeight > 830 ? "830px" : mainSliderHeight + "px"
+                }`,
+              }}
+            >
               <div className="carousel-caption">
                 <h2 className="animate__animated animate__fadeInLeft title">
                   NEED A <span className="theme_color">RIDE </span> ?
@@ -82,12 +104,15 @@ const MainSlider = () => {
                 </p>
               </div>
             </div>
-            <div className="carousel-item carusel-center h-100">
-              <img
-                src={image3}
-                className="d-block w-100 h-100 object-fit-cover"
-                alt="..."
-              />
+            <div
+              className="carousel-item carusel-center"
+              style={{
+                backgroundImage: `url(${image3})`,
+                height: `${
+                  mainSliderHeight > 830 ? "830px" : mainSliderHeight + "px"
+                }`,
+              }}
+            >
               <div className="carousel-caption">
                 <h2 className="animate__animated animate__fadeInDownBig title">
                   HIRE CAR <span className="theme_color">PROFESSIONAL </span> ?

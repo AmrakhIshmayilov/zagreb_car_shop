@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./home.css";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import MainSlider from "../MainSlider/MainSlider";
+import MainSlider from "./MainSlider/MainSlider";
 import AboutSection from "./AboutSection/AboutSection";
 import bgAbout from "../../assets/images/1.png";
 import ServicesSection from "./ServicesSection/ServicesSection";

@@ -3,3 +3,7 @@
   background-repeat: no-repeat;
   padding: 150px 0px 150px;
 }
+
+.about-section .content-column {
+  max-width: 520px;
+}

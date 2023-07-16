@@ -27,10 +27,11 @@
   position: absolute;
   content: "";
   width: 1px;
-  height: 109.5%;
+  height: 125%;
   left: 76px;
   bottom: 90%;
   background-color: #ff8201;
+  z-index: -1;
 }
 
 .single-item-carousel:after {
@@ -73,4 +74,22 @@
 
 .cars-section .owl-carousel .owl-nav button[class*="owl-"]:hover {
   color: #404040;
+}
+
+@media only screen and (max-width: 992px) {
+  .cars-section .content-column {
+    padding-bottom: 150px;
+  }
+  .cars-section {
+    padding-bottom: 100px;
+  }
+  .single-item-carousel::before,
+  .single-item-carousel::after {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .cars-section .content-column {
+    padding: 0px 15px 150px;
+  }
 }

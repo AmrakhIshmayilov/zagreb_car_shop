@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <footer>
       <div className="auto-container">
-        <div className="row justify-content-between">
-          <div className="col-md-6 col-sm-6 col-xs-12">
+        <div className="row justify-content-between flex-column flex-md-row">
+          <div className="col-lg-6 col-md-6 col-sm-12">
             <ul className="footer-nav">
               <li>
                 <Link to="/">
@@ -32,7 +32,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md-6 col-sm-6 col-xs-12 text-end">
+          <div className="col-lg-6 col-md-6 col-sm-12 text-center text-md-end">
             <div className="copyright">
               Copyright © 2017 All Rights Reserved. Zagreb
             </div>

@@ -114,3 +114,12 @@
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #ff8201;
 }
+
+@media only screen and (max-width: 767px) {
+  .testimonial-block .inner-box {
+    padding-left: 0px;
+  }
+  .testimonial-block .inner-box .quote-icon {
+    display: none;
+  }
+}

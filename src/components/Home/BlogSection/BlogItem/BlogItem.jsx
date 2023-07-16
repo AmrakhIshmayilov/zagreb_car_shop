@@ -7,14 +7,14 @@ const BlogItem = ({ item }) => {
     <div className="news-block">
       <div className="inner-box">
         <div className="row clearfix">
-          <div className="image-column col-md-6 col-sm-6 col-xs-12">
+          <div className="image-column col-lg-6 col-md-6 col-sm-12">
             <figure className="image">
               <a href="blog-detail.html">
                 <img src={item.image} alt="" />
               </a>
             </figure>
           </div>
-          <div className="content-column col-md-6 col-sm-6 col-xs-12">
+          <div className="content-column col-lg-6 col-md-6 col-sm-12">
             <div className="inner">
               <div className="posted">{item.date}</div>
               <h3>

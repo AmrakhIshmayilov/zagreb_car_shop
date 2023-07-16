@@ -19,7 +19,7 @@ const CarsSection = () => {
           rotateTitle="OUR CARS"
         >
           <div className="row">
-            <div className="content-column col-md-7 col-sm-12 col-xs-12">
+            <div className="content-column col-lg-7 col-md-12 col-sm-12">
               <div className="dark-text">
                 Zombie ipsum reversus ab viral inferno, nam rick grimes malum
                 cerebro. De carne lumbering animata corpora quaeritis.{" "}
@@ -38,7 +38,7 @@ const CarsSection = () => {
               </div>
               <ZagrebBtn link="##" text="Book This Car" />
             </div>
-            <div className="carousel-column col-md-5 col-sm-12 col-xs-12">
+            <div className="carousel-column col-lg-5 col-md-12 col-sm-12">
               <h2>CADILLAC ESCALADE LIMO</h2>
               <div className="single-item-carousel">
                 <OwlCarousel

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const ServicesBlock = ({ service }) => {
   return (
-    <div className="services-block col-md-4 col-sm-6 col-xs-12">
+    <div className="services-block col-lg-4 col-md-6 col-sm-12">
       <div className="inner-box">
         <div className="upper-box">
           <div className="icon-box">{service.icon}</div>
