@@ -12,13 +12,13 @@ const PageTitle = ({ title }) => {
     >
       <div className="auto-container">
         <h1>{title}</h1>
-        <div class="bread-crumb-outer">
-          <ul class="bread-crumb clearfix">
+        <div className="bread-crumb-outer">
+          <ul className="bread-crumb clearfix">
             <li>
               <Link to="/">Home</Link>
               <RiArrowRightSLine />
             </li>
-            <li class="active">{title}</li>
+            <li className="active">{title}</li>
           </ul>
         </div>
       </div>

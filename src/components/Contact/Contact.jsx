@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./contact.css";
 import PageTitle from "../common/PageTitle/PageTitle";
 import GoogleMapReact from "google-map-react";
@@ -8,6 +8,13 @@ import { GoMail } from "react-icons/go";
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    username: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
   const defaultProps = {
     center: {
       lat: 40.409264,
@@ -15,9 +22,18 @@ const Contact = () => {
     },
     zoom: 11,
   };
+
   useEffect(() => {
     document.title = "Zagreb Contact";
   }, []);
+
+  const handleOnChange = (e, type) => {
+    setFormData({
+      ...formData,
+      [type]: e.currentTarget.value,
+    });
+  };
+
   return (
     <div className="contact-page">
       <PageTitle title="Contact Us" />
@@ -77,15 +93,25 @@ const Contact = () => {
                   method="post"
                   action="sendemail.php"
                   id="contact-form"
-                  novalidate="novalidate"
+                  noValidate="novalidate"
                 >
                   <div className="row clearfix">
                     <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                      <input type="text" name="username" placeholder="Name *" />
+                      <input
+                        type="text"
+                        name="username"
+                        placeholder="Name *"
+                        onChange={(e) => handleOnChange(e, "username")}
+                      />
                     </div>
 
                     <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                      <input type="email" name="email" placeholder="Email *" />
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Email *"
+                        onChange={(e) => handleOnChange(e, "email")}
+                      />
                     </div>
 
                     <div className="col-lg-12 col-md-12 col-sm-12 form-group">
@@ -93,11 +119,16 @@ const Contact = () => {
                         type="text"
                         name="subject"
                         placeholder="Subject *"
+                        onChange={(e) => handleOnChange(e, "subject")}
                       />
                     </div>
 
                     <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 form-group">
-                      <textarea name="message" placeholder="Message"></textarea>
+                      <textarea
+                        name="message"
+                        placeholder="Message"
+                        onChange={(e) => handleOnChange(e, "message")}
+                      ></textarea>
                     </div>
 
                     <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 form-group">
