@@ -102,6 +102,7 @@ const Contact = () => {
                         name="username"
                         placeholder="Name *"
                         onChange={(e) => handleOnChange(e, "username")}
+                        value={formData.username}
                       />
                     </div>
 
@@ -111,6 +112,7 @@ const Contact = () => {
                         name="email"
                         placeholder="Email *"
                         onChange={(e) => handleOnChange(e, "email")}
+                        value={formData.email}
                       />
                     </div>
 
@@ -120,6 +122,7 @@ const Contact = () => {
                         name="subject"
                         placeholder="Subject *"
                         onChange={(e) => handleOnChange(e, "subject")}
+                        value={formData.subject}
                       />
                     </div>
 
@@ -128,6 +131,7 @@ const Contact = () => {
                         name="message"
                         placeholder="Message"
                         onChange={(e) => handleOnChange(e, "message")}
+                        value={formData.message}
                       ></textarea>
                     </div>
 
