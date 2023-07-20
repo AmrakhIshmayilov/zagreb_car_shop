@@ -1,0 +1,89 @@
+.news-block-two .inner-box .image-column {
+  position: relative;
+  margin-bottom: 20px;
+}
+.news-block-two .inner-box .image-column img {
+  position: relative;
+  width: 100%;
+}
+
+.news-block-two .inner-box .content-column .inner {
+  position: relative;
+  padding: 0px 0px 0px;
+}
+.news-block-two .inner-box .content-column .inner .posted {
+  position: relative;
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 4px;
+}
+.news-block-two .inner-box .content-column .inner h3 {
+  position: relative;
+  line-height: 1em;
+}
+
+.news-block-two .inner-box .content-column .inner h3 a {
+  position: relative;
+  color: #232323;
+  font-size: 17px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.news-block-two .inner-box .content-column .inner h3 a:hover {
+  color: #ff8201;
+}
+.news-block-two .inner-box .content-column .inner .text {
+  position: relative;
+  color: #777777;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.news-block-two .inner-box .content-column .inner .view-more {
+  position: relative;
+  font-size: 13px;
+  font-weight: 800;
+  color: #ff8201;
+  float: right;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.news-block-two .inner-box .content-column .inner .view-more:hover {
+  color: #232323;
+}
+
+.news-testimonial-column .owl-theme .owl-nav [class*="owl-"] {
+  position: relative;
+  display: inline-block;
+  margin: 0px 0px 0px 6px;
+  padding: 1px 20px !important;
+  border: 1px solid transparent;
+  color: #cccccc;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 50px;
+  text-transform: uppercase;
+  background: none;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  font-family: "Catamaran", sans-serif;
+}
+
+.news-testimonial-column .owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #ffffff !important;
+  border-color: #7f7f7f;
+  color: #7f7f7f !important;
+}

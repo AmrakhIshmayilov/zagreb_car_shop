@@ -1,0 +1,58 @@
+.car-block .inner-box h3 {
+  position: relative;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.car-block .inner-box .lower-box .text {
+  position: relative;
+  color: #777777;
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.car-block .inner-box .lower-box .arrow {
+  cursor: pointer;
+  color: #fa6f1c;
+}
+
+.car-block .inner-box .lower-box .arrow .icon {
+  position: relative;
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #232323;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.car-block .inner-box .lower-box .arrow:hover .icon {
+  background-color: #ff8201;
+}
+
+.car-block .inner-box .lower-box .arrow .text {
+  position: relative;
+  color: #ff8201;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 10px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.car-block .inner-box .lower-box .arrow:hover .text {
+  opacity: 1;
+}

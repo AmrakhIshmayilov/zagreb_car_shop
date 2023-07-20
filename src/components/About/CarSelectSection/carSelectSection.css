@@ -3,3 +3,75 @@
   background-color: #fafafa;
   padding: 130px 0px 140px;
 }
+
+.select-car-tabs .tab-buttons {
+  position: relative;
+  z-index: 1;
+  top: -60px;
+  text-align: right;
+}
+
+.select-car-tabs .tab-buttons .tab-btn {
+  position: relative;
+  display: inline-block;
+  line-height: 18px;
+  padding: 8px 14px 6px 14px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  color: #cccccc;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 16px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.select-car-tabs .tab-buttons .tab-btn.active-btn,
+.select-car-tabs .tab-buttons .tab-btn:hover {
+  color: #777777;
+  border-color: #777777;
+}
+
+.select-car-tabs .tabs-content .tab {
+  display: block;
+  width: 100%;
+}
+
+.cars-select-section .owl-carousel .owl-nav.disabled {
+  display: block;
+}
+
+.cars-select-section .owl-nav {
+  padding: 25px 0 0;
+  position: relative;
+  text-align: center;
+  top: 0;
+}
+.cars-select-section .owl-theme .owl-nav [class*="owl-"] {
+  color: #cfcfcf;
+  font-size: 20px;
+  height: 45px;
+  line-height: 42px;
+  padding: 0;
+  position: relative;
+  transition: all 500ms ease 0s;
+  width: 45px;
+  border: 1px solid #cfcfcf;
+  border-radius: 0px;
+  background: transparent;
+}
+.cars-select-section .owl-theme .owl-nav [class*="owl-"] span {
+  font-size: 38px;
+  font-weight: 100;
+}
+
+.cars-select-section .owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #ffffff;
+  border-color: #7f7f7f;
+  color: #7f7f7f;
+}

@@ -1,0 +1,26 @@
+.default-testimonials {
+  position: relative;
+  padding: 140px 0px 85px;
+}
+.default-testimonials .client-tesimonial h2 {
+  position: relative;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 34px;
+  text-transform: uppercase;
+}
+
+.default-testimonials .news-testimonial-column {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.default-testimonials .news-testimonial-column h2 {
+  position: relative;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 34px;
+  text-transform: uppercase;
+}

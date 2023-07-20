@@ -3,6 +3,8 @@ import "./about.css";
 import PageTitle from "../common/PageTitle/PageTitle";
 import ExperianceSection from "./ExperianceSection/ExperianceSection";
 import CarSelectSection from "./CarSelectSection/CarSelectSection";
+import DefaultTestiSection from "./DefaultTestiSection/DefaultTestiSection";
+import SponsorsSection from "./SponsorsSection/SponsorsSection";
 
 const About = () => {
   useEffect(() => {
@@ -13,6 +15,8 @@ const About = () => {
       <PageTitle title="About Us" />
       <ExperianceSection />
       <CarSelectSection />
+      <DefaultTestiSection />
+      <SponsorsSection />
     </div>
   );
 };
