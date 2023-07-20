@@ -1,0 +1,102 @@
+.car-info-block {
+  position: relative;
+  margin-bottom: 40px;
+}
+.car-info-block .inner-box {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #f5f5f5;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(234, 234, 234, 1);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(234, 234, 234, 1);
+  box-shadow: 0px 0px 8px 0px rgba(234, 234, 234, 1);
+}
+.cars-info-section.list-view .car-info-block .car-column {
+  position: relative;
+  padding: 0px;
+}
+.car-info-block .inner-box .image {
+  position: relative;
+  overflow: hidden;
+}
+.car-info-block .inner-box .image img {
+  position: relative;
+  width: 100%;
+  display: block;
+  -webkit-transition: all 600ms ease;
+  -ms-transition: all 600ms ease;
+  -o-transition: all 600ms ease;
+  -moz-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+.car-info-block .inner-box:hover .image img {
+  -webkit-transform: rotate(4deg) scale(1.1);
+  -ms-transform: rotate(4deg) scale(1.1);
+  -o-transform: rotate(4deg) scale(1.1);
+  -moz-transform: rotate(4deg) scale(1.1);
+  transform: rotate(4deg) scale(1.1);
+}
+.cars-info-section.list-view .car-info-block .car-column {
+  position: relative;
+  padding: 0px;
+}
+
+.cars-info-section.list-view .car-info-block .car-column .lower-box {
+  position: relative;
+  border-top: 0px;
+  border-bottom: 0px;
+  padding: 33px 40px;
+}
+
+.car-info-block .inner-box .lower-box h3 {
+  position: relative;
+  line-height: 1em;
+  padding-bottom: 22px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #dddddd;
+}
+.car-info-block .inner-box .lower-box h3 a {
+  color: #232323;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.car-info-block .inner-box .lower-box h3 a:hover {
+  color: #ff8201;
+}
+.car-info-block .inner-box .lower-box .more-info {
+  position: relative;
+}
+.car-info-block .inner-box .lower-box ul li {
+  position: relative;
+  color: #777777;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.car-info-block .inner-box .lower-box ul li span {
+  color: #232323;
+}
+.car-info-block .inner-box .lower-box ul li:last-child {
+  margin-bottom: 0px;
+}
+.car-info-block .inner-box .lower-box .more-info .price-day {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  font-size: 32px;
+  color: #ff8201;
+  font-weight: 700;
+  line-height: 1em;
+  margin-top: -19px;
+}
+.car-info-block .inner-box .lower-box .more-info .price-day span {
+  position: relative;
+  color: #777777;
+  font-size: 14px;
+  font-weight: 400;
+}

@@ -1,0 +1,236 @@
+.sidebar-widget {
+  position: relative;
+  margin-bottom: 50px;
+}
+.sidebar-page-container .sidebar-form h3 {
+  position: relative;
+  color: #232323;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 26px 0px;
+  text-align: center;
+  background-color: #f4f4f4;
+  text-transform: uppercase;
+}
+
+.sidebar .sidebar-widget .widget-box {
+  background-color: #fafafa;
+}
+.sidebar .sidebar-widget .widget-content {
+  position: relative;
+  padding: 40px 30px 15px;
+}
+
+.form-column .inner-box {
+  position: relative;
+  padding: 45px 30px;
+  background-color: #fafafa;
+}
+.default-form .form-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+.default-form .form-group .group-inner .field-label {
+  position: relative;
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+.default-form .form-group .group-inner .field-label {
+  margin-bottom: 10px;
+}
+
+.default-form .form-group .group-inner select {
+  cursor: pointer;
+  background: #ffffff right top no-repeat;
+}
+
+.default-form .form-group .group-inner input,
+.default-form .form-group .group-inner select {
+  position: relative;
+  height: 52px;
+  width: 100%;
+  line-height: 32px;
+  padding: 10px 20px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.ui-selectmenu-button.ui-button {
+  text-align: left;
+  white-space: nowrap;
+}
+
+.default-form .form-group .group-inner .ui-selectmenu-button {
+  position: relative;
+  height: 52px;
+  width: 100%;
+  line-height: 32px;
+  padding: 10px 20px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  /* -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none; */
+  cursor: pointer;
+  background: #ffffff right top no-repeat;
+  display: inline-block;
+}
+
+.ui-selectmenu-icon.ui-icon {
+  background-position: center;
+  margin-top: 8px;
+}
+
+.default-form .lower-form-box {
+  position: relative;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 30px;
+}
+
+.default-form .form-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+/* .default-form .form-group.no-margin {
+    margin-bottom: 0px;
+  } */
+
+.default-form .form-group .group-inner .input-label {
+  position: relative;
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 52px;
+  display: inline-block;
+}
+.default-form .form-group .group-inner .number-of-people {
+  position: relative;
+  width: 80px;
+  height: 52px;
+  float: right;
+  background-color: #ffffff;
+}
+
+.default-form .form-group .select-box {
+  position: relative;
+  display: inline-block;
+  margin-right: 40px;
+  margin-top: 14px;
+  margin-bottom: 12px;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.default-form .form-group .select-box input[type="radio"] {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 22px;
+  height: 22px;
+  visibility: hidden;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.default-form .form-group .select-box label {
+  position: relative;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 0px;
+  padding-left: 30px;
+  line-height: 29px;
+}
+
+.default-form .form-group .select-box .default-check {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+}
+
+.default-form
+  .form-group
+  .select-box
+  input[type="radio"]:checked
+  + label
+  .check-icon {
+  opacity: 1;
+}
+
+.default-form .form-group .select-box .check-icon {
+  position: absolute;
+  content: "\f00c";
+  left: 4px;
+  top: 6px;
+  color: #ff8201;
+  z-index: 99;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  opacity: 0;
+  font-family: "FontAwesome";
+}
+
+.rangeslider-widget {
+  position: relative;
+  margin-bottom: 35px;
+}
+.rangeslider-widget .field-label {
+  font-weight: 700;
+  color: #232323;
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.rangeslider-widget .range-slider-price {
+  background: #eeeeee;
+  border-color: #eeeeee;
+}
+.rangeslider-widget .noUi-connect {
+  background: #f8ad60;
+  box-shadow: none;
+}
+
+.rangeslider-widget .noUi-handle {
+  background: #ff972c;
+  border-radius: 50%;
+  box-shadow: none;
+  border: 4px solid #ff8201;
+  cursor: pointer;
+}
+.rangeslider-widget .noUi-horizontal {
+  height: 10px;
+}
+
+.rangeslider-widget .noUi-horizontal .noUi-handle {
+  width: 20px;
+  height: 20px;
+}
+.rangeslider-widget .noUi-horizontal .noUi-handle::after,
+.rangeslider-widget .noUi-horizontal .noUi-handle::before {
+  display: none;
+}
