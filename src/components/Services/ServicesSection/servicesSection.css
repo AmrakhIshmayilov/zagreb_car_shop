@@ -1,0 +1,10 @@
+.services-section {
+  position: relative;
+  z-index: 2;
+  padding: 100px 0px 60px;
+  background-color: #fafafa;
+}
+
+.services-section .sec-title {
+  margin-bottom: 40px;
+}

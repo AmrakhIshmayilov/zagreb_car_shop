@@ -1,0 +1,90 @@
+.app-section {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fafafa;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.app-section .content-column {
+  position: relative;
+  padding: 140px 15px 100px;
+}
+.app-section .content-column .inner-box h2 {
+  position: relative;
+  font-weight: 800;
+  color: #232323;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.app-section .content-column .inner-box .dark-text {
+  position: relative;
+  color: #232323;
+  font-size: 14px;
+  margin-top: 6px;
+}
+.app-section .content-column .inner-box .text {
+  position: relative;
+  color: #777777;
+  font-size: 14px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.app-section .content-column .inner-box .app-btn {
+  position: relative;
+  padding: 15px 30px 15px 90px;
+  border-radius: 50px;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 15px;
+  display: inline-block;
+  border: 2px solid #ff8201;
+  color: #ff8201;
+  margin-right: 15px;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.app-section .content-column .inner-box .app-btn .icon {
+  position: absolute;
+  left: 30px;
+  font-size: 42px;
+  color: #ff8201;
+}
+
+.app-section .content-column .inner-box .app-btn .app-name {
+  position: relative;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.app-section .image-column {
+  position: relative;
+  text-align: center;
+  padding-top: 130px;
+}
+
+.app-section .image-column .image {
+  margin: 0;
+}
+
+.app-section .image-column .image img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.app-section .content-column .inner-box .app-btn:hover {
+  background-color: #ff8201;
+  color: #ffffff;
+}
+
+.app-section .content-column .inner-box .app-btn:hover .icon {
+  color: #ffffff;
+}
