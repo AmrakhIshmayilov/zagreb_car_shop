@@ -8,7 +8,6 @@ import { IoGridOutline, IoListSharp } from "react-icons/io5";
 import { TbPlayerPlay } from "react-icons/tb";
 
 import selectArrow from "../../../assets/images/select-arrow.png";
-import car6 from "../../../assets/images/car-6.jpg";
 import car7 from "../../../assets/images/car-7.jpg";
 import car8 from "../../../assets/images/car-8.jpg";
 import car9 from "../../../assets/images/car-9.jpg";
@@ -21,9 +20,7 @@ import videoImage from "../../../assets/images/video-image.jpg";
 
 const SidebarSection = () => {
   const [theme, setTheme] = useState("grid");
-  useEffect(() => {
-    Fancybox.bind();
-  }, []);
+
   const cars = [
     {
       id: 1,
@@ -86,6 +83,10 @@ const SidebarSection = () => {
       priceDay: 115,
     },
   ];
+
+  useEffect(() => {
+    Fancybox.bind();
+  }, []);
 
   const handleViewStyle = (e) => {
     e.preventDefault();
