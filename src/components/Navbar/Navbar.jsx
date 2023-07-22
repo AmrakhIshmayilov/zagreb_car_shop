@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
 import "./navbar.css";
+
 import {
   FaFacebookF,
   FaTwitter,
@@ -13,6 +14,7 @@ import { TfiGoogle, TfiMenu } from "react-icons/tfi";
 import { BsTelephone } from "react-icons/bs";
 import { GoMail } from "react-icons/go";
 import { CgArrowLongUp } from "react-icons/cg";
+
 import logo from "../../assets/images/logo.png";
 import logo2 from "../../assets/images/logo-2.png";
 
@@ -165,9 +167,9 @@ const Navbar = () => {
           }`}
         >
           <div className="logo text-center">
-            <a href="index.html">
+            <Link to="/">
               <img src={logo2} alt="" />
-            </a>
+            </Link>
           </div>
           <div className="side-menu">
             <ul className="navigation">

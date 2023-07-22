@@ -5,7 +5,6 @@ import $ from "jquery";
 import "jquery-ui-dist/jquery-ui";
 import Nouislider from "nouislider-react";
 import selectArrow from "../../../../assets/images/select-arrow.png";
-// import { BsFillCircleFill } from "react-icons/bs";
 
 const SidebarWidget = () => {
   const [dataForm, setDataForm] = useState({

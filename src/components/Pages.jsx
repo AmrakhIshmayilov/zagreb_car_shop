@@ -20,8 +20,7 @@ const Pages = () => {
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/contact" element={<Contact />} />
-      {/* <Route exact path="/posts" element={Posts} /> */}
-      {/* <Route path="/posts/:id" element={PostDetail} /> */}
+      {/* <Route path="/blog/:id" element={BlogDetail} /> */}
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
